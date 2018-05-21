@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1>Getting Tasks Done!</h1>
-        <h3>Dashboard</h3>
+        <h1>{{ $t('application.title') }}</h1>
+        <h2>{{ $t('dashboard.title') }}</h2>
     </div>
 </template>
 
@@ -10,7 +10,6 @@ export default {
     name: 'Dashboard',
     data () {
         return {
-            msg: 'Welcome to Your Vue.js App'
         }
     }
 }
